@@ -1,15 +1,15 @@
-// next.config.js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // Required for Static HTML Export (GitHub Pages)
-  basePath: '/portofolio-react', // YOUR REPOSITORY NAME HERE
-  assetPrefix: '/portofolio-react/', // Ensure assets load correctly
+// next.config.ts
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: '/portofolio-react',
+  assetPrefix: '/portofolio-react/',
   images: {
-    unoptimized: true, // Required for output: 'export' without a custom image loader
+    unoptimized: true,
   },
 };
-
-module.exports = nextConfig;
+export default nextConfig;
 // import type { NextConfig } from "next";
 
 // const nextConfig: NextConfig = {

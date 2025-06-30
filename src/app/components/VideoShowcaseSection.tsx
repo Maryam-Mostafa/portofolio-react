@@ -15,7 +15,7 @@ const VideoShowcaseSection: React.FC = () => {
             <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
               <video
                 className="absolute top-0 left-0 w-full h-full rounded-lg"
-                src="/public/manifacture-vid.mp4" // Assuming path from public folder
+                src="/manifacture-vid.mp4" // Assuming path from public folder
                 title="Manufacturing Process Video"
                 controls // Allows user to play/pause, unmute
                 muted // Starts muted
@@ -38,7 +38,7 @@ const VideoShowcaseSection: React.FC = () => {
             <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
               <video
                 className="absolute top-0 left-0 w-full h-full rounded-lg"
-                src="/public/labobo.mp4" // Assuming path from public folder
+                src="/labobo.mp4" // Assuming path from public folder
                 title="Resent Product Labomo"
                 controls // Allows user to play/pause, unmute
                 muted // Starts muted

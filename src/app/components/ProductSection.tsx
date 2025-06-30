@@ -12,7 +12,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 1: Home and Kitchen */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/furnature-and-kitchen.png" // Assuming this is in your public folder
+              src="/furnature-and-kitchen.png" // Assuming this is in your public folder
               alt="Home and Kitchen"
               // MODIFIED LINE: Changed object-cover to object-contain for this image
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
@@ -29,7 +29,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 2: Electronics and Gadgets */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/534816.jpg" // Assuming this is in your public folder
+              src="/534816.jpg" // Assuming this is in your public folder
               alt="Electronics and Gadgets"
               // MODIFIED LINE: Changed object-cover to object-contain for this image
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
@@ -46,7 +46,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 3: Food and Beverage */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/Food-and-Beverage.webp" // Assuming this is in your public folder
+              src="/Food-and-Beverage.webp" // Assuming this is in your public folder
               alt="Food and Beverage"
               // MODIFIED LINE: Changed object-cover to object-contain for this image
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
@@ -63,7 +63,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 4: Health and Beauty */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/health-and-beauty.jpg" // Assuming this is in your public folder
+              src="/health-and-beauty.jpg" // Assuming this is in your public folder
               alt="Health and Beauty"
               // MODIFIED LINE: Changed object-cover to object-contain for this image
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
@@ -80,7 +80,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 5: Fashion and Accessories */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/fashion.jpeg" // Assuming this is in your public folder
+              src="/fashion.jpeg" // Assuming this is in your public folder
               alt="Fashion and Accessories"
               // MODIFIED LINE: Changed object-cover to object-contain for this image
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
@@ -97,7 +97,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 6: Automotive */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/car.png" // Assuming this is in your public folder
+              src="/car.png" // Assuming this is in your public folder
               alt="Automotive"
               // MODIFIED LINE: Changed object-cover to object-contain for this image
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
@@ -114,7 +114,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 7: Building and Construction - REMAINS object-cover (as per your request) */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/builfing.png"
+              src="/builfing.png"
               alt="Building and Construction"
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
               onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => { e.currentTarget.onerror = null; e.currentTarget.src="https://placehold.co/400x250/C7D2FE/374151?text=Placeholder+Image"; }}
@@ -130,7 +130,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 8: Industrial and Machinery - REMAINS object-cover (as per your request) */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/machines.png"
+              src="/machines.png"
               alt="Industrial and Machinery"
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
               onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => { e.currentTarget.onerror = null; e.currentTarget.src="https://placehold.co/400x250/C7D2FE/374151?text=Placeholder+Image"; }}
@@ -146,7 +146,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
           {/* Product Item 9: Miscellaneous (Textiles, Paper Products) - REMAINS object-cover (as per your request) */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden group">
             <img
-              src="/public/papers.png"
+              src="/papers.png"
               alt="Miscellaneous"
               className="w-full h-48 object-cover transform transition-transform duration-500 group-hover:scale-110"
               onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => { e.currentTarget.onerror = null; e.currentTarget.src="https://placehold.co/400x250/C7D2FE/374151?text=Placeholder+Image"; }}

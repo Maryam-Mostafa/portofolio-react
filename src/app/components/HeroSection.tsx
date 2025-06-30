@@ -26,7 +26,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ activeSection }) => {
       id="home"
       className="relative text-white flex items-center justify-center min-h-screen py-20 overflow-hidden"
       style={{
-        backgroundImage: `url(/public/bg.jpg)`, // Assuming bg.jpg is in your public folder
+        backgroundImage: `url(/bg.jpg)`, // Assuming bg.jpg is in your public folder
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
