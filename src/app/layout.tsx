@@ -1,7 +1,7 @@
 // src/app/layout.tsx
 // This file is a Server Component by default, which is appropriate for a root layout.
 // It will define the <html> and <body> tags for your entire application.
-
+import "../app/globals.css";
 import React, { ReactNode } from 'react';
 
 // You would typically import and apply Tailwind CSS via a global CSS file (e.g., globals.css)
@@ -93,7 +93,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       <body className="font-inter text-gray-800 bg-gray-50 antialiased">
         {children} {/* This is where your page content will be rendered */}
         {/* Tailwind CSS CDN script - placed at the end of body for best practice with CDN */}
-        <script src="https://cdn.tailwindcss.com"></script>
+        {/* <script src="https://cdn.tailwindcss.com"></script> */}
       </body>
     </html>
   );

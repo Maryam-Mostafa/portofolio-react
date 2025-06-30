@@ -33,7 +33,7 @@ const ServicesSection: React.FC = () => {
             </div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">Quality Control & Assurance</h3>
             <p className="text-gray-700 text-center">
-              Rigorous inspections and quality checks at the supplier's facility to ensure products meet your specifications.
+              Rigorous inspections and quality checks at the supplier&apos;s facility to ensure products meet your specifications.
             </p>
           </div>
 

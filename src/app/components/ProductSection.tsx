@@ -89,7 +89,7 @@ const ProductSection: React.FC = () => { // Renamed to ProductSection for consis
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Fashion and Accessories</h3>
               <p className="text-gray-700 text-sm">
-                Clothing (Men's, women's, children's apparel), Footwear, Accessories (Handbags, jewelry).
+                Clothing (Men&apos;s, women&apos;s, children&apos;s apparel), Footwear, Accessories (Handbags, jewelry).
               </p>
             </div>
           </div>

@@ -52,7 +52,7 @@ const WhyChooseUsSection: React.FC = () => {
             </div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">Quality Control & Assurance</h3>
             <p className="text-gray-700 text-center">
-              Rigorous quality control processes and thorough inspections at the supplier's facility.
+              Rigorous quality control processes and thorough inspections at the supplier&apos;s facility.
             </p>
           </div>
 
