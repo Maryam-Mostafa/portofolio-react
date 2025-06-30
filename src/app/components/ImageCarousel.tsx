@@ -7,9 +7,9 @@ import React, { useState, useEffect } from 'react';
 // IMPORTANT: Ensure these images are placed in your Next.js 'public' directory
 // For example, if your image is in public/images/my-image.jpg, use src="/images/my-image.jpg"
 const images = [
-  "D:\web\portofolio - Copy\public\seewing-woman.jpeg",
-  "D:\web\portofolio - Copy\public\machines-mechanics.jpeg",
-  "D:\web\portofolio - Copy\public\loop-box.jpeg",
+  "/public/seewing-woman.jpeg",
+  "/public/machines-mechanics.jpeg",
+  "/public/loop-box.jpeg",
 ];
 interface ImageCarouselProps {
   // You can pass props like aspectRatio or defaultHeight if needed for customization
